@@ -16,17 +16,21 @@
    padding: bottom; 56.25%
    padding: relative; 
 }
-
+.responsive iframe {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+}
 </style>
 </head>
 <body>
-<header></header>
-<main></main>
 <div id="maincontent">
-<iframe
-style="width: 840px; height: 590px; overflow: hidden; border:1px solid #000;"
-allowfullscreen="false" autoplay="false" src="https://cdn.lbryplayer.xyz/api/v4/streams/free/odysee/488846693910710387190429e1bcc0f31a252b4a/ba6bd3">
-</iframe>
+  <div class="responsive">
+  <iframe
+  style="width: 840px; height: 590px; overflow: hidden; border:1px solid #000;"
+  allowfullscreen="false" autoplay="false" src="https://cdn.lbryplayer.xyz/api/v4/streams/free/odysee/488846693910710387190429e1bcc0f31a252b4a/ba6bd3">
+  </iframe>
+</div> class="responsive">
 </div id="maincontent">
 </div>
 <footer></footer>
