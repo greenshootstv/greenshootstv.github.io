@@ -386,7 +386,8 @@ nav ul li {
 	padding-right: 10px;
 	line-height: 22px;
 	text-align: center;
-    
+    	
+
 }
 }
 
@@ -537,7 +538,10 @@ nav ul li {
 
 /* Logo-Big */
 
-#.logo-big {
-background-color: #2D9AB7;
+.logo-big {
+   background-color: #2D9AB7;
+  width: 100%;
+  align: center;
+   
 
 }
