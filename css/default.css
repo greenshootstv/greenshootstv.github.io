@@ -343,7 +343,9 @@ footer {
 .thumbnail {
 	width: 100%;
 }
-
+.thumbnail-art {
+	width: 100%;
+}
 .text_column {
 	padding-left: 20px;
 	padding-right: 20px;
