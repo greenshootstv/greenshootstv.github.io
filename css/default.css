@@ -272,7 +272,7 @@ footer {
 /*===================== @media screen sizes */ ===================== sizes */ 
 
 /* Mobile */
-@media (max-width: 320px) {
+@media (max-width: 322px) {
 .logo {
 	width: 100%;
 	text-align: center;
