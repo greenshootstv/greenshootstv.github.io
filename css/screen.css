@@ -11,21 +11,25 @@
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
-  .search input[type=text] {
+.search input[type=text] {
   width: 67%;
 }    
 .text-body {
-	padding-top: 0.5px;
+	padding-top: -10px;
+    margin-top: 65px;
+ }
+.tagline {
+	margin-top: 50px;
+	line-height: 18px;
 }
-
 .column {
 	width: 100%;
 	margin-top: 0px;
 }
-#.hero_header {
+.hero_header {
 	padding-left: 10px;
 	padding-right: 10px;
-	line-height: 22px;
+	line-height: 18px;
     text-align: center;
 }
 .container header nav {
@@ -44,52 +48,14 @@ nav ul li {
 	width: 100%;
 	text-align: center;
 }
-#.thumbnail {
-	width: 100%;
-}
-#.footer_column {
-	width: 100%;
-	margin-top: 0px;
-    
-}
-#.parallax {
-    width: 100%;
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	font-size: 18px;
-}
-.banner {
-	background-color: #2D9AB7;
-	background-image: none;
-#   margin-top: -20px;
-}
-.tagline {
-	margin-top: 40px;
-	line-height: 18px;
-}
-
 }
 
 /* ========== Small Tablets ========== */
 
 @media (min-width: 321px)and (max-width: 767px) {
+
 .logo {
-	width: 100%;
-	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-}
-.logo {
-	width: 100%;
+	width: 21%;
 	text-align: center;
 	margin-top: 13px;
 	margin-right: 0px;
