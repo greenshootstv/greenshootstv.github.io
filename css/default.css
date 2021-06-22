@@ -100,7 +100,7 @@ header {
 	margin-right: 1%;
 	border-radius: 33px;
 	padding-top: 1px;
-    padding-bottom: 1px;
+        padding-bottom: 1px;
 	border-bottom: 3px solid #6DC7D0;
 }
 .gallery .thumbnail h4 {
@@ -225,8 +225,54 @@ footer {
 	padding-right: 20px;
 }
 
+/* contact page */
+
+.contact-thumbnail-art {
+	width: 23%;
+	text-align: center;
+	float: left;
+	margin-top: 25px;
+	background-color: #F8F8F8;
+	margin-left: 1%;
+	margin-right: 1%;
+	border-radius: 33px;
+	padding-top: 1px;
+        padding-bottom: 1px;
+	border-bottom: 3px solid #6DC7D0;
+}
+
+.contact-gallery-art {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	background-color: #FFFFFF;
+	/* [disabled]min-width: 400px; */
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.contact-gallery-art .contact-thumbnail-art h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+#	color: #52BAD5;
+	text-align: centre;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.contact-gallery-art .contact-thumbnail-art p {
+	margin: 0;
+	color: #B3B3B3;
+	text-align: left;
+	padding-left: 20px;
+}
+
+/*===================== @media screen sizes */ ===================== sizes */ 
+
 /* Mobile */
-@media (max-width: 320px) {
+@media (max-width: 31px) {
 .logo {
 	width: 100%;
 	text-align: center;
@@ -264,6 +310,9 @@ footer {
 	text-align: center;
     =
 }
+.contact-thumbnail-art {
+	width: 100%;
+}
 }
 
 /* Small Tablets */
@@ -294,9 +343,7 @@ footer {
 .thumbnail {
 	width: 100%;
 }
-.thumbnail-art {
-	width: 100%;
-}
+
 .text_column {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -314,6 +361,9 @@ footer {
 	width: 90%;
 	text-align: center;
 	padding-left: 0px;
+}
+.contact-thumbnail-art {
+	width: 100%;
 }
 }
 
@@ -335,5 +385,8 @@ footer {
 }
 .intro .column p {
 	width: 80%;
+}
+.contact-thumbnail-art {
+	width: 48%;
 }
 }
