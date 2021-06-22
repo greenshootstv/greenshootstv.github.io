@@ -66,3 +66,15 @@ form:hover .fa{
     background: #07051a;
     color: white;
 }
+
+/* ======== Search Bar ======== */
+
+.search input[type=text] {
+  float: left;
+  padding-right: 85px;
+  padding-left: 10px;
+  margin-top: 14px;
+  margin-right: 16px;
+  border-radius: 4px;
+  font-size: 17px;
+}

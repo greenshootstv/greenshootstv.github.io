@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 /* ========== Mobile ========== */
-/* ========== Mobile ========== */
 
 @media (max-width: 320px) {
 .logo {
@@ -16,6 +15,14 @@
 	width: 100%;
 	text-align: justify;
 	padding: 0;
+}
+.text_column {
+	width: 100%;
+	text-align: justify;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
 }
 .intro .column p {
 	width: 80%;
@@ -39,94 +46,6 @@
 	padding-right: 10px;
 	line-height: 22px;
 	text-align: center;
-    =
-}
-}
-
-/* ========== Small Tablets ========== */
-
-@media (min-width: 321px)and (max-width: 767px) {
-.logo {
-	width: 100%;
-	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-}
-.text_column {
-	width: 100%;
-	text-align: left;
-	padding: 0;
-}
-.thumbnail {
-	width: 100%;
-}
-.thumbnail-art {
-	width: 100%;
-}
-.column {
-	width: 100%;
-	margin-top: 0px;
-}
-.thumbnail {
-	width: 100%;
-}
-.thumbnail-art {
-	width: 100%;
-}
-.text_column {
-	padding-left: 20px;
-	padding-right: 20px;
-	width: 90%;
-}
-.column {
-	width: 100%;
-	margin-left: 0px;
-	margin-right: 0px;
-}
-.profile {
-	width: 100%;
-}
-.intro .column p {
-	width: 90%;
-	text-align: center;
-	padding-left: 0px;
-}
-}
-
-/* ========== Small Desktops ========== */
-
-@media (min-width: 768px) and (max-width: 1096px) {
-.text_column {
-	width: 100%;
-}
-.thumbnail {
-	width: 48%;
-}
-.thumbnail-art {
-	width: 48%;
-}
-.text_column {
-	width: 90%;
-	margin: 0;
-	padding: 20px;
-}
-.intro .column p {
-	width: 80%;
-}
-}
-
-/* ======== Mobile ======== */
-
-@media (max-width: 319px) {
-.logo {
-	width: 100%;
-	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
 }
 .container header nav {
 	margin-top: 0px;
@@ -146,14 +65,6 @@ nav ul li {
 	margin-left: 0px;
 	width: 100%;
 	text-align: center;
-}
-.text_column {
-	width: 100%;
-	text-align: justify;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
 }
 .thumbnail {
 	width: 100%;
@@ -197,17 +108,9 @@ nav ul li {
 	margin-top: 20px;
 	line-height: 22px;
 }
-.hero_header {
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 22px;
-	text-align: center;
-    	
-
-}
 }
 
-/* ======== Small Tablets ======== */
+/* ========== Small Tablets ========== */
 
 @media (min-width: 321px)and (max-width: 767px) {
 .logo {
@@ -217,7 +120,68 @@ nav ul li {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+}
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
 	color: #043745;
+}
+.text_column {
+	width: 100%;
+	text-align: left;
+	padding: 0;
+}
+.text_column {
+	width: 100%;
+	text-align: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.thumbnail-art {
+	width: 100%;
+}
+.column {
+	width: 100%;
+	margin-top: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.thumbnail {
+	width: 100%;
+}
+.thumbnail-art {
+	width: 100%;
+}
+.thumbnail {
+	width: 50%;
+}
+.text_column {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 90%;
+}
+.column {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.profile {
+	width: 100%;
+}
+.intro .column p {
+	width: 90%;
+	text-align: center;
+	padding-left: 0px;
 }
 .container header nav {
 	margin-top: 0px;
@@ -244,17 +208,7 @@ nav ul li {
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
-.text_column {
-	width: 100%;
-	text-align: left;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-.thumbnail {
-	width: 100%;
-}
+
 .footer_column {
 	width: 100%;
 	margin-top: 0px;
@@ -285,9 +239,6 @@ nav ul li {
 	width: 100%;
 	text-align: center;
 }
-.thumbnail {
-	width: 50%;
-}
 .parallax {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -312,18 +263,34 @@ nav ul li {
 }
 .footer_column {
 	width: 100%;
-    
 }
 }
 
-/* ======== Small Desktops ======== */
+/* ========== Small Desktops ========== */
 
 @media (min-width: 768px) and (max-width: 1096px) {
 .text_column {
 	width: 100%;
 }
 .thumbnail {
+	width: 48%;
+}
+.thumbnail-art {
+	width: 48%;
+}
+.thumbnail {
 	width: 50%;
+}
+.text_column {
+	width: 90%;
+	margin: 0;
+	padding: 20px;
+}
+.intro .column p {
+	width: 80%;
+}
+.text_column {
+	width: 100%;
 }
 .text_column {
 	width: 100%;
@@ -340,16 +307,4 @@ nav ul li {
 	margin-top: 0px;
 	padding-top: 0px;
 }
-}
-
-/* ======== Search Bar ======== */
-
-.search input[type=text] {
-  float: left;
-  padding-right: 85px;
-  padding-left: 10px;
-  margin-top: 14px;
-  margin-right: 16px;
-  border-radius: 4px;
-  font-size: 17px;
 }
