@@ -2,7 +2,7 @@
 
 /* ========== Mobile ========== */
 
-@media (max-width: 310px) {
+@media (max-width: 320px) {
 .logo {
 	width: 100%;
 	text-align: center;
@@ -11,12 +11,12 @@
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
-.text_column {
+#.text_column {
 	width: 100%;
 	text-align: justify;
 	padding: 0;
 }
-.text_column {
+#.text_column {
 	width: 100%;
 	text-align: justify;
 	padding-top: 0px;
@@ -24,7 +24,7 @@
 	padding-bottom: 0px;
 	padding-left: 0px;
 }
-.intro .column p {
+#.intro .column p {
 	width: 80%;
 	margin-left: 0px;
 }
@@ -45,16 +45,14 @@
 	padding-left: 10px;
 	padding-right: 10px;
 	line-height: 22px;
-	text-align: center;
+    text-align: center;
 }
 .container header nav {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
+	width: 85%;
 	float: none;
-	display: none;
+#	display: none;
+    line-height: 26px;
+
 }
 header nav ul {
 }
@@ -87,26 +85,14 @@ nav ul li {
 	width: 100%;
 	font-size: 18px;
 }
-.parallax_description {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 90%;
-	margin-top: 25px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 12px;
-	float: none;
-	text-align: center;
-}
+
 .banner {
 	background-color: #2D9AB7;
 	background-image: none;
 }
 .tagline {
-	margin-top: 20px;
-	line-height: 22px;
+	margin-top: -40px;
+	line-height: 18px;
 }
 }
 
