@@ -63,7 +63,6 @@ nav ul li {
 }
 ul li a {
 	color: #FFFFFF;
-
 }
 ul li:hover a {
 	color: #2C9AB7;
@@ -110,7 +109,7 @@ ul li:hover a {
     letter-spacing: 1px;
     padding-left: 35px;
     padding-right: 35px;
-}px
+}
 /* ======== About Section ======== */
 
 .text_column {
@@ -181,11 +180,10 @@ ul li:hover a {
 }
 
 .para {
-#       background-color: #2D9AB7; 
-#       background-color: #EAFFF7;
-        width: 100%;
-        align: center;
-
+#   background-color: #2D9AB7; 
+#   background-color: #EAFFF7;
+    width: 100%;
+    align: center;
 }
 
 /* ======== More info ======== */
@@ -199,8 +197,6 @@ footer {
 	text-align: center;
 	padding-top: 30px;
 	float: left;
-    
-    
 }
 footer .footer_column h3 {
 	color: #B3B3B3;
@@ -237,8 +233,8 @@ footer .footer_column p {
 	padding-left: 10px;
 	text-align: center;
 	vertical-align: middle;ercase;
-        text-transform: uppercase;  
-        border-radius: 5px;
+    text-transform: uppercase;  
+    border-radius: 5px;
 	font-weight: bold;
 	letter-spacing: 2px;
 	border: 3px solid #FFFFFF;
@@ -261,12 +257,12 @@ footer .footer_column p {
 }
    
 .button-a:hover {
-  background: #2196F3;
-  color: white;
+    background: #2196F3;
+    color: white;
 }
 
 .button-b:hover {
-background-color: #6DC7D0;
+    background-color: #6DC7D0;
 	color: #FFFFFF;
 	cursor: pointer;
 }
