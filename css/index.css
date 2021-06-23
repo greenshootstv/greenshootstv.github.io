@@ -69,7 +69,7 @@ ul li a {
 ul li:hover a {
 	color: #2C9AB7;
 }
-.hero_header {
+.footer_banner_2 {
 	color: #FFFFFF;
 	text-align: center;
 	margin-top: -20px;
@@ -173,7 +173,7 @@ ul li:hover a {
 /* ======== Parallax ======== */
 
 .banner {
-	background-color: #2D9AB7;
+#	background-color: #2D9AB7;
 	background-image: url(../images/parallax.png);
 	height: 725px;
 	background-attachment: fixed;
@@ -181,7 +181,7 @@ ul li:hover a {
 	background-repeat: no-repeat;
 }
 
-.page-banner {
+.para {
 #       background-color: #2D9AB7; 
 #       background-color: #EAFFF7;
         width: 100%;
