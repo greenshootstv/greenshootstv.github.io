@@ -60,6 +60,7 @@ nav ul li {
 	letter-spacing: 2px;
 	font-weight: bold;
 	transition: all 0.3s linear;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
 }
 ul li a {
 	color: #FFFFFF;
@@ -244,7 +245,7 @@ footer .footer_column p {
 .button-a {
     display: inline-block;
     color: #ffffff;
-    font-family: sans-serif;
+    font-family: Courier New; monospace; 
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -284,6 +285,7 @@ footer .footer_column p {
 	margin-top: 20px;
 	background-image: url(../images/pattern.png);
 	background-repeat: repeat;
+    font-family: "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
 }
 footer {
 	display: inline-block;
