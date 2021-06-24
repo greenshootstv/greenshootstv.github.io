@@ -33,11 +33,22 @@ a {text-decoration:none;}
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.topbannerwrap {
+	position: fixed;
+	background-color: #2C9AB7;
+	width: 89%;
+	height: 125px;
+	
+}
+
 /* ======== Nav Header ======== */
 
 header {
 	height: 10%;
 	border-bottom: 1px solid #2C9AB7;
+	width: 25%;
+#	height: 10px;
 }
 .logo-small {
 	width: 10%;
@@ -75,7 +86,7 @@ header {
 /* ======== Marquee ========  */
 
 .marquee>a>img {
-	height: 115px;
+	height: 65px;
   }
 .marquee-wrapper {
 	display:  inline-block;
@@ -93,7 +104,7 @@ header {
 .marquee-wrapper:hover .marquee {
 	  animation-play-state: paused !important;
   }
-@keyframes marquee {
+	@keyframes marquee {
 	  0% {
 		  transform: translate3d(0%, 0, 0);
 	  }
@@ -114,7 +125,7 @@ header {
     letter-spacing: 2px;
 	padding-top: 400px;	
 	background-color: #B3B3B3;
-	padding-top: 95px;
+	padding-top: 125px;
 	padding-bottom: 15px;
 	padding-left: 80px;
 	padding-right: 80px;
