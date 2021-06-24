@@ -23,12 +23,12 @@ a {text-decoration:none;}
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	height: 750px;
+	height: 700px;
 }
 .parallax {
 	background-color: #2D9AB7;
 	background-image: url(../images/parallax.png);
-	height: 725px;
+	#	height: 825px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -39,82 +39,124 @@ header {
 	height: 10%;
 	border-bottom: 1px solid #2C9AB7;
 }
-.logo {
+.logo-small {
 	width: 10%;
 	float: left;
 	margin-top: 15px;
-	margin-left: 25px;
+	margin-left: 15px;
 }
-nav {
-	float: right;
+.search input[type=text] {
+	float: left;
+	padding-right: 55px;
+	padding-left: 10px;
+	margin-top: 14px;
+	margin-right: 16px;
+	border-radius: 4px;
+	font-size: 17px;
+  }
+.topnav {
 	width: 50%;
 	text-align: right;
-	margin-right: 25px;
-}
-header nav ul {
-	list-style: none;
-	float: right;
-}
-nav ul li {
-	float: left;
-	color: #FFFFFF;
-
 	font-weight: bold;
-	font-size: 18px;
-	text-align: left;
-	margin-right: 25px;
+	font-size: 20px;
 	letter-spacing: 2px;
 	transition: all 0.3s linear;
-    font-family: notacumulus;
+	font-family: notacumulus;
+	list-style: none;
+	float: right;
+	margin-top: 20px;
+	margin-right: 55px;
+		
 }
-ul li a {
-	color: #FFFFFF;
-}
-ul li:hover a {
-	color: #2C9AB7;
+.topnavbtn:hover {
+    color: white;
 }
 
-/* ======== text-body ======== */
+/* ======== Marquee ========  */
 
-.text-body {
+.marquee>a>img {
+	height: 115px;
+  }
+.marquee-wrapper {
+	display:  inline-block;
+	white-space: nowrap;
+  }
+.marquee {
+	  display:  inline-block;
+	  white-space: nowrap;
+	  position: relative;
+	  transform: translate3d(0%, 0, 0);
+	  animation-name: marquee;
+	  animation-timing-function: linear;
+	  animation-iteration-count: infinite;
+  }
+.marquee-wrapper:hover .marquee {
+	  animation-play-state: paused !important;
+  }
+@keyframes marquee {
+	  0% {
+		  transform: translate3d(0%, 0, 0);
+	  }
+  
+	  100% {
+		  transform: translate3d(-100%, 0, 0);
+	  }
+  }
+/* ======== Text Main ======== */
+
+.textwrapper {
 	font-family: Simplecat-d9xpV;
 	text-align: justify;
-	color: #FFFFFF;
+	color: rgb(59, 55, 55);
  	font-weight: bold;
     text-transform: lowercase;
     font-size: 16px;	
     letter-spacing: 2px;
+	padding-top: 400px;	
 	background-color: #B3B3B3;
-	padding-top: 55px;
+	padding-top: 95px;
 	padding-bottom: 15px;
-	margin-bottom: 15px;
-	margin-top: -10px;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 80px;
+	padding-right: 80px;
 }
-/* ======== Buttons All ======== */
+/* ======== Link Buttons ======== */
 
-.buttons {
-    display: inline-block;
-    color: #ffffff;
+.linkbtnblock {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.linkbtn {
+	color: #ffffff;
     font-family: MOONYCAT;
     font-size: 22px;
-    font-weight: bold;
+#   font-weight: bold;
     letter-spacing: 1px;
-    line-height: 1.1;
-    text-align: center;
-    margin: 5px; 5px;
+    line-height: 1;
     border-radius: 12px;
     background: #DE3163; 
-    padding: 2px; 2px
+	padding: 6px; 6px
+	display: inline-block;	
+	margin: 10px; 10px;
 }
-.buttons:hover {
+.linkbtn:hover {
     background: #2196F3;
     color: white;
 }
-.button-bottom {
+/* ======== Lower Banner / Footer / Copyright ======== */
+
+.lower-banner {
+	background-color: #B3B3B3;
+#	background-color: black;
+	padding-top: 35px;
+	padding-bottom: 35PX;
+	font-family: notacumulus;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 4px;
+}
+.subbutt {
 	letter-spacing: 2px;
-	vertical-align: middle;ercase;
 	width: 200px;
 	margin-top: 40px;
 	margin-right: auto;
@@ -127,35 +169,36 @@ ul li:hover a {
 	border-radius: 5px;
 	border: 3px solid #FFFFFF;
 	color: #FFFFFF;
-	transition: all 0.3s linear;
-	text-align: center;
 	text-transform: uppercase;  
 	font-weight: bold;
 	font-family: notacumulus;
 }
-.button-bottom:hover {
-    background-color: rgb(207, 207, 207);
+.subbutt:hover {
+    background-color: rgba(214, 40, 92, 0.822);
 	color: #FFFFFF;
 	cursor: pointer;
 }
-.footer-banner {
-#	background-color: #B3B3B3;
-#	background-image: url(../images/pattern.png);
-#	background-repeat: repeat;
-	padding-top: 60px;
-	padding-bottom: 60PX;
+
+.backbutt {
+	letter-spacing: 2px;
+	width: 40px;
+	margin-top: -66px;
+	margin-left: 40px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	text-transform: uppercase;  
+	font-weight: bold;
 	font-family: notacumulus;
 }
-/* ======== Banner Lower ======== */
-
-.footer-text {
+.backbutt:hover {
+    background-color: rgba(214, 40, 92, 0.822);	
 	color: #FFFFFF;
-	text-align: center;
-	margin-top: -20px;
-	margin-right: 0px;
-	margin-bottom: 20px;
-	margin-left: 0px;
-	letter-spacing: 4px;
+	cursor: pointer;
 }
 .copyright {
 	text-align: center;

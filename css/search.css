@@ -1,14 +1,4 @@
 @charset "UTF-8";
 
 
-/* ======== Search Bar ======== */
 
-.search input[type=text] {
-  float: left;
-  padding-right: 75px;
-  padding-left: 10px;
-  margin-top: 14px;
-  margin-right: 16px;
-  border-radius: 4px;
-  font-size: 17px;
-}
