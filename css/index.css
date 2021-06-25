@@ -53,7 +53,7 @@ header {
 #	height: 10px;
 }
 .logo {
-	width: 10%;
+	width: 12%;
 	float: left;
 	margin-top: 15px;
 	margin-left: 15px;
@@ -67,25 +67,24 @@ header {
 	border-radius: 4px;
 	font-size: 17px;
 }
-#.topbtnwrap {
-	padding-top: 15px;
-	margin-left: 625px;
-}
 .topbtnwrap {
 	position: relative;
 	top: 15px;
 	left: 150px;
 }
 .topbtn {
-	color: #B3B3B3;
+	color: rgb(224, 224, 224);
 	font-family: notacumulus;
 	font-weight: bold;
 	font-size: 22px;
+	text-shadow: 2px 2px 5px black;
+#	border: 3px solid #FFFFFF;
+#	border-radius: 12px;
 	letter-spacing: 2px;
 	padding-left: 55px;
 }
 .topbtn:hover {
-	color: white;
+	color: #717070;
 	transition: all 0.3s linear;
 }
 /* ======== Marquee ========  */
@@ -152,9 +151,9 @@ header {
 	border-radius: 12px;
 	border: 3px solid #FFFFFF;
 	background: #DE3163; 
-	padding: 6px; 6px
-	display: inline-block;	
-	margin: 10px; 10px;
+	padding: 6px 6px 6px 6px;
+	margin: 10px 10px 10px 10px;
+	display: inline-block;
 }
 .linkbtn:hover {
     background: rgb(224, 186, 16);
@@ -163,30 +162,32 @@ header {
 }
 /* ===== Lower Banner / Footer / Copyright =======*/
 
-.lower-banner {
+.lowerbanner {
 	background-color: #B3B3B3;
 #	background-color: black;
 	padding-top: 35px;
-	padding-bottom: 35PX;
+	padding-bottom: 75PX;
 	font-family: notacumulus;
 	color: #FFFFFF;
 	text-align: center;
 	letter-spacing: 4px;
 }
+
+.lowbannerheadtit {
+	position: relative;
+	top: -25px;
+}
 .subbtn {
 	border: 3px solid #FFFFFF;
-	width: 200px;
-	margin-top: 40px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: auto;
-	padding-top: 20px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-left: 10px;
 	border-radius: 5px;
+	width: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 39px;
+	padding-left: 39px;
 	letter-spacing: 2px;
 	color: #FFFFFF;
+	text-align: center;
 	text-transform: uppercase;  
 	font-weight: bold;
 	font-family: notacumulus;
@@ -199,14 +200,13 @@ header {
 }
 .backbtn {
 	border: 3px solid #FFFFFF;
-	width: 40px;
-	margin-top: -66px;
-	margin-left: 40px;
-	padding-top: 20px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-left: 10px;
 	border-radius: 5px;
+	width: 40px;
+	margin-right: 850px;
+	padding-right: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 10px;
 	letter-spacing: 2px;
 	color: #FFFFFF;
 	text-transform: uppercase;  
