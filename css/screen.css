@@ -24,9 +24,13 @@
 	font-size: 20px;
 	padding-left: 5px;
 }
-.marquee-wrapper {
-	display: none;
-	white-space: nowrap;
+.marquee {
+	display: relative;
+	top: 40px;
+}
+
+.marquee>a>img {
+	height: 30px;
 }
 
 

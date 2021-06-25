@@ -87,9 +87,7 @@ header {
 .topbtn:hover {
 	color: white;
 	transition: all 0.3s linear;
-	
 }
-
 /* ======== Marquee ========  */
 
 .marquee>a>img {
