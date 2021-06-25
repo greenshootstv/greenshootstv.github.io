@@ -37,7 +37,7 @@ a {text-decoration:none;}
 .topbannerwrap {
 	position: fixed;
 	border: 2px solid rgb(221, 29, 189);
-	#	margin: 10px;
+#	margin: 10px;
 	background-color: #2C9AB7;
 	top: 0px;
 	left: 0px;
@@ -67,22 +67,22 @@ header {
 	margin-right: 16px;
 	border-radius: 4px;
 	font-size: 17px;
-  }
-.topnav {
-	width: 50%;
+}
+
+.topbtn {
+	color: #d40606;
+	font-family: notacumulus;
 	text-align: right;
 	font-weight: bold;
 	font-size: 20px;
 	letter-spacing: 2px;
 	transition: all 0.3s linear;
-	font-family: notacumulus;
 	list-style: none;
 	float: right;
 	margin-top: 20px;
 	margin-right: 55px;
-		
 }
-.topnavbtn:hover {
+.topbtn:hover {
     color: white;
 }
 
@@ -90,11 +90,11 @@ header {
 
 .marquee>a>img {
 	height: 65px;
-  }
+}
 .marquee-wrapper {
 	display:  inline-block;
 	white-space: nowrap;
-  }
+}
 .marquee {
 	  display:  inline-block;
 	  white-space: nowrap;
@@ -103,10 +103,10 @@ header {
 	  animation-name: marquee;
 	  animation-timing-function: linear;
 	  animation-iteration-count: infinite;
-  }
+}
 .marquee-wrapper:hover .marquee {
 	  animation-play-state: paused !important;
-  }
+}
 	@keyframes marquee {
 	  0% {
 		  transform: translate3d(0%, 0, 0);
@@ -115,7 +115,7 @@ header {
 	  100% {
 		  transform: translate3d(-100%, 0, 0);
 	  }
-  }
+}
 /* ======== Text Main ======== */
 
 .textwrapper {
@@ -124,7 +124,7 @@ header {
 	color: rgb(59, 55, 55);
  	font-weight: bold;
     text-transform: lowercase;
-    font-size: 16px;	
+    font-size: 16px;
     letter-spacing: 2px;
 	padding-top: 400px;	
 	background-color: #B3B3B3;
@@ -169,7 +169,7 @@ header {
 	text-align: center;
 	letter-spacing: 4px;
 }
-.subbutt {
+.subbtn {
 	letter-spacing: 2px;
 	width: 200px;
 	margin-top: 40px;
@@ -187,12 +187,12 @@ header {
 	font-weight: bold;
 	font-family: notacumulus;
 }
-.subbutt:hover {
+.subbtn:hover {
     background-color: rgba(214, 40, 92, 0.822);
 	color: #FFFFFF;
 	cursor: pointer;
 }
-.backbutt {
+.backbtn {
 	letter-spacing: 2px;
 	width: 40px;
 	margin-top: -66px;
@@ -208,7 +208,7 @@ header {
 	font-weight: bold;
 	font-family: notacumulus;
 }
-.backbutt:hover {
+.backbtn:hover {
     background-color: rgba(214, 40, 92, 0.822);	
 	color: #FFFFFF;
 	cursor: pointer;
