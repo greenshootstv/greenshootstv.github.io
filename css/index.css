@@ -16,7 +16,8 @@
 
 body {
 	background-color: #000000;
-	overflow-x: hidden; //horizontal
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+	
 }
 a {text-decoration:none;}
 
