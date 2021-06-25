@@ -3,7 +3,7 @@
 /* ========== Mobile ========== */
 
 @media (max-width: 320px) {
-.logo {
+#.logo {
 	width: 100%;
 	text-align: center;
 	margin-top: 13px;
@@ -12,12 +12,30 @@
 	margin-left: 0px;
 }
 .search input[type=text] {
-  width: 70%;
+  width: 30%;
+  position: absolute;
+  right: 25px;
 }
-    
+.topnav {
+	text-align: right;
+	letter-spacing: 1px;
+	list-style: none;
+	float: right;
+	margin-top: 20px;
+	margin-right: 55px;
+
+.marquee-wrapper {
+		display:  inline-block;
+		white-space: nowrap;
+}
+	  
+
+
+=========================================
+   
 .para {
-#   background-color: #2D9AB7;
-#   background-color: #EAFFF7;
+   background-color: #2D9AB7;
+   background-color: #EAFFF7;
     width: 100%;
     align:  center;
     padding-bottom: 10px;
