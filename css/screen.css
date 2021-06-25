@@ -8,25 +8,28 @@
 	right: 0px;
 	width: 100%;
 }
-#.logo {
-	width: 100%;
-	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-}
 .search input[type=text] {
 	width: 30%;
 	position: absolute;
 	right: 25px;
+	}
+	
+.topbtnwrap {
+	position: absolute;
+	top: 55px;
+	left: 10px;
+	letter-spacing: 7px;
 }
 .topbtn {
-	font-size: 15px;
-	letter-spacing: 1px;
-	float: left;
-	margin-left: 10px;
+	font-size: 20px;
+	padding-left: 5px;
 }
+.marquee-wrapper {
+	display: none;
+	white-space: nowrap;
+}
+
+
 .textwrapper {
 	align: center;
   	padding-top: 125px;
@@ -42,14 +45,11 @@
 	font-size: 15px;
 	padding-right: 55px;
 	margin-right: 20px;
-
 }
 .backbtn {
 	width: 20%;
 	font-size: 18px;
 	margin-left: 20px;
-	
-	
 }
 
 
@@ -59,22 +59,7 @@
 
 
 
-
-#.subbtn {
-	width: 200px;
-	margin-top: 40px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: auto;
-	padding-top: 20px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-left: 10px;
-
-
-
-}
-
+==================================
 .para {
    background-color: #2D9AB7;
    background-color: #EAFFF7;
@@ -91,7 +76,6 @@
 	margin-top: 50px;
 	line-height: 18px;
     padding-bottom: 0.5px;
-
 }
 .column {
 	width: 100%;

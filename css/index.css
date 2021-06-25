@@ -33,7 +33,6 @@ a {text-decoration:none;}
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
 .topbannerwrap {
 	position: fixed;
 	border: 2px solid rgb(221, 29, 189);
@@ -53,7 +52,7 @@ header {
 	width: 25%;
 #	height: 10px;
 }
-.logo-small {
+.logo {
 	width: 10%;
 	float: left;
 	margin-top: 15px;
@@ -68,22 +67,27 @@ header {
 	border-radius: 4px;
 	font-size: 17px;
 }
-
+#.topbtnwrap {
+	padding-top: 15px;
+	margin-left: 625px;
+}
+.topbtnwrap {
+	position: relative;
+	top: 15px;
+	left: 150px;
+}
 .topbtn {
-	color: #d40606;
+	color: #B3B3B3;
 	font-family: notacumulus;
-	text-align: right;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 22px;
 	letter-spacing: 2px;
-	transition: all 0.3s linear;
-	list-style: none;
-	float: right;
-	margin-top: 20px;
-	margin-right: 55px;
+	padding-left: 55px;
 }
 .topbtn:hover {
-    color: white;
+	color: white;
+	transition: all 0.3s linear;
+	
 }
 
 /* ======== Marquee ========  */
@@ -92,7 +96,7 @@ header {
 	height: 65px;
 }
 .marquee-wrapper {
-	display:  inline-block;
+	display: inline-block;
 	white-space: nowrap;
 }
 .marquee {
@@ -135,7 +139,7 @@ header {
 }
 /* ======== Link Buttons ======== */
 
-.linkbtnblock {
+.linkbtnwrap {
 	text-align: center;
 	margin-top: 35px;
 	margin-bottom: 35px;
@@ -147,15 +151,17 @@ header {
 #   font-weight: bold;
     letter-spacing: 1px;
     line-height: 1;
-    border-radius: 12px;
-    background: #DE3163; 
+	border-radius: 12px;
+	border: 3px solid #FFFFFF;
+	background: #DE3163; 
 	padding: 6px; 6px
 	display: inline-block;	
 	margin: 10px; 10px;
 }
 .linkbtn:hover {
     background: rgb(224, 186, 16);
-    color: white;
+	color: white;
+	transition: all 0.3s linear;
 }
 /* ===== Lower Banner / Footer / Copyright =======*/
 
@@ -170,7 +176,7 @@ header {
 	letter-spacing: 4px;
 }
 .subbtn {
-	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
 	width: 200px;
 	margin-top: 40px;
 	margin-right: auto;
@@ -181,7 +187,7 @@ header {
 	padding-bottom: 20px;
 	padding-left: 10px;
 	border-radius: 5px;
-	border: 3px solid #FFFFFF;
+	letter-spacing: 2px;
 	color: #FFFFFF;
 	text-transform: uppercase;  
 	font-weight: bold;
@@ -191,9 +197,10 @@ header {
     background-color: rgba(214, 40, 92, 0.822);
 	color: #FFFFFF;
 	cursor: pointer;
+	transition: all 0.3s linear;
 }
 .backbtn {
-	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
 	width: 40px;
 	margin-top: -66px;
 	margin-left: 40px;
@@ -202,7 +209,7 @@ header {
 	padding-bottom: 20px;
 	padding-left: 10px;
 	border-radius: 5px;
-	border: 3px solid #FFFFFF;
+	letter-spacing: 2px;
 	color: #FFFFFF;
 	text-transform: uppercase;  
 	font-weight: bold;
@@ -212,6 +219,7 @@ header {
     background-color: rgba(214, 40, 92, 0.822);	
 	color: #FFFFFF;
 	cursor: pointer;
+	transition: all 0.3s linear;
 }
 .copyright {
 	text-align: center;
