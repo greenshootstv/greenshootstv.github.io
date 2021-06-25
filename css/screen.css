@@ -12,8 +12,10 @@
 	width: 30%;
 	position: absolute;
 	right: 25px;
-	}
-	
+}
+.topbannerwrap {
+	height: 95px;
+}
 .topbtnwrap {
 	position: absolute;
 	top: 55px;
@@ -26,14 +28,11 @@
 }
 .marquee {
 	display: relative;
-	top: 40px;
+	bottom: 27px;
 }
-
 .marquee>a>img {
-	height: 30px;
+	height: 60px;
 }
-
-
 .textwrapper {
 	align: center;
   	padding-top: 125px;
@@ -42,19 +41,13 @@
 }
 .linkbtn {
 	display: inline-block;
-	padding: 20px;	
+	padding: 20px;
+	margin-bottom: 20px;
 }
 .subbtn {
-	width: 50%;
-	font-size: 15px;
-	padding-right: 7px;
-	margin-right: 20px;
-	
+	margin-left: 60px;	
 }
 .backbtn {
-	width: 15%;
-	height: 30px;
-	font-size: 15px;
 	margin-left: 20px;
 }
 
@@ -65,7 +58,7 @@
 
 
 
-==================================
+=================================
 .para {
    background-color: #2D9AB7;
    background-color: #EAFFF7;

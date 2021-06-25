@@ -16,6 +16,7 @@
 
 body {
 	background-color: #000000;
+	overflow-x: hidden; //horizontal
 }
 a {text-decoration:none;}
 
@@ -35,7 +36,7 @@ a {text-decoration:none;}
 }
 .topbannerwrap {
 	position: fixed;
-	border: 2px solid rgb(221, 29, 189);
+	border: 2px solid rgb(221, 29, 119);
 #	margin: 10px;
 	background-color: #2C9AB7;
 	top: 0px;
@@ -89,6 +90,11 @@ header {
 }
 /* ======== Marquee ========  */
 
+.marqeewrap {
+	position: absolute;
+	top: 145px;
+	
+}
 .marquee>a>img {
 	height: 65px;
 }
@@ -129,10 +135,11 @@ header {
     letter-spacing: 2px;
 	padding-top: 400px;	
 	background-color: #B3B3B3;
-	padding-top: 125px;
+	padding-top: 150px;
 	padding-bottom: 15px;
 	padding-left: 80px;
 	padding-right: 80px;
+	margin-top: 50px;
 }
 /* ======== Link Buttons ======== */
 
@@ -152,8 +159,10 @@ header {
 	border: 3px solid #FFFFFF;
 	background: #DE3163; 
 	padding: 6px 6px 6px 6px;
-	margin: 10px 10px 10px 10px;
 	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	
 }
 .linkbtn:hover {
     background: rgb(224, 186, 16);
