@@ -30,9 +30,9 @@ a {text-decoration:none;
 }
 .parallax {
 	background-image: url(../images/parallax.png);
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+#	background-attachment: fixed;
+#	background-size: cover;
+#	background-repeat: no-repeat;
 }
 .topbannerwrap {
 	position: fixed;
