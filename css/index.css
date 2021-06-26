@@ -18,7 +18,12 @@ body {
 	background-color: #000000;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
 }
-a {text-decoration:none;}
+nav {
+	position: fixed; width: 300px; right: -300px;
+}
+
+a {text-decoration:none;
+}
 
 .container {
 	width: 90%;
@@ -38,13 +43,13 @@ a {text-decoration:none;}
 	position: fixed;
 	border: 2px solid #DE3163;
 #	margin: 10px;
-	background-color: #2C9AB7;
+#	background-color: #2C9AB7;
+	background-image: url(../images/parallax.png);
 	top: 0px;
 	left: 0px;
 	width: 100%;
 	height: 125px;
 }
-
 .tagline {
 	font-family: MOONYCAT;
 	font-size: 28px;
@@ -85,7 +90,7 @@ header {
 	font-family: notacumulus;
 	font-weight: bold;
 	font-size: 22px;
-	text-shadow: 2px 2px 5px black;
+	text-shadow: 1px 1px 2px black, 0 0 1em rgb(221, 15, 104), 0 0 0.2em blue;
 #	border: 3px solid #FFFFFF;
 #	border-radius: 12px;
 	letter-spacing: 2px;
@@ -98,9 +103,8 @@ header {
 /* ======== Marquee ========  */
 
 .marqeewrap {
-	position: absolute;
+	position: relative;
 	top: 145px;
-	
 }
 .marquee>a>img {
 	height: 65px;
@@ -122,11 +126,11 @@ header {
 	  animation-play-state: paused !important;
 }
 	@keyframes marquee {
-	  0% {
+	  10% {
 		  transform: translate3d(0%, 0, 0);
 	  }
   
-	  100% {
+	  95% {
 		  transform: translate3d(-100%, 0, 0);
 	  }
 }
@@ -140,9 +144,8 @@ header {
     text-transform: lowercase;
     font-size: 16px;
     letter-spacing: 2px;
-	padding-top: 400px;	
 	background-color: #B3B3B3;
-	padding-top: 150px;
+	padding-top: 85px;
 	padding-bottom: 15px;
 	padding-left: 80px;
 	padding-right: 80px;
@@ -182,7 +185,7 @@ header {
 	background-color: #B3B3B3;
 #	background-color: black;
 	padding-top: 35px;
-	padding-bottom: 75PX;
+	padding-bottom: 55px;
 	font-family: notacumulus;
 	color: #FFFFFF;
 	text-align: center;
@@ -192,6 +195,8 @@ header {
 .lowbannerheadtit {
 	position: relative;
 	top: -25px;
+	margin-bottom: -20px;
+
 }
 .subbtn {
 	border: 3px solid #FFFFFF;
@@ -210,7 +215,6 @@ header {
 }
 .subbtn:hover {
     background-color: rgba(214, 40, 92, 0.822);
-	color: #FFFFFF;
 	cursor: pointer;
 	transition: all 0.3s linear;
 }
@@ -218,20 +222,22 @@ header {
 	border: 3px solid #FFFFFF;
 	border-radius: 5px;
 	width: 40px;
-	margin-right: 850px;
-	padding-right: 10px;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 0px;
+	padding-bottom: 25px;
 	padding-left: 10px;
+	padding-right: 35px;
+	margin-right: 850px;
+	margin-top: -45px;
+	margin-bottom: -175px;
 	letter-spacing: 2px;
-	color: #FFFFFF;
-	text-transform: uppercase;  
-	font-weight: bold;
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	font-size: 100px;
+#	font-weight: bold;
 	font-family: notacumulus;
 }
 .backbtn:hover {
-    background-color: rgba(214, 40, 92, 0.822);	
-	color: #FFFFFF;
+    background-color: rgba(57, 138, 214, 0.822);	
 	cursor: pointer;
 	transition: all 0.3s linear;
 }

@@ -1,6 +1,6 @@
-@charset "UTF-8";
+		@charset "UTF-8";
 
-/* ========== Mobile ========== */
+/* ========== Mobile (eg iphone SE )========== */
 
 @media (max-width: 320px) {
 .container {
@@ -11,13 +11,13 @@
 .search input[type=text] {
 	width: 30%;
 	position: absolute;
-	right: 25px;
+	right: 15px;
 }
 .topbannerwrap {
 	height: 95px;
 }
 .topbtnwrap {
-	position: absolute;
+	position: fixed;
 	top: 55px;
 	left: 10px;
 	letter-spacing: 7px;
@@ -38,7 +38,7 @@
 }
 .textwrapper {
 	align: center;
-  	padding-top: 125px;
+  	padding-top: 50px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -48,198 +48,27 @@
 	margin-bottom: 20px;
 }
 .lowbannerheadtit {
-	margin-bottom: 55px;
+	margin-bottom: 15px;
+
 }
 .subbtn {
-	margin-left: 60px;
+#	margin-right: 200px;
+	margin-left: 10px;
 }
 .backbtn {
-	margin-left: 20px;
-}
-
-
-
-
-
-
-
-=================================
-.para {
-   background-color: #2D9AB7;
-   background-color: #EAFFF7;
-    width: 100%;
-    align:  center;
-    padding-bottom: 10px;
-    padding-top: 220px;
-}
-.text-body {
-	padding-top: 1px;
-    margin-top: 70px;
- }
-.tagline {
-	margin-top: 50px;
-	line-height: 18px;
-    padding-bottom: 0.5px;
-}
-.column {
-	width: 100%;
-	margin-top: 0px;
-}
-.container header nav {
-	width: 85%;
-	float: none;
-#	display: none;
-    line-height: 36px;
-}
-header nav ul {
-}
-nav ul li {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	text-align: center;
+	font-size: 75px;	
+	padding-left: 3px;
+	padding-right: 15px;
+	margin-left: 5px;
+	position: relative;
+	top: 16px;
 }
 }
-
 /* ========== Small Tablets ========== */
 
 @media (min-width: 321px)and (max-width: 767px) {
 
-.logo {
-	width: 21%;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	color: #043745;
-}
-.text_column {
-	width: 100%;
-	text-align: left;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-    padding: 0;
-}
-.thumbnail {
-	width: 100%;
-}
-.column {
-	width: 100%;
-	margin-top: 0px;
-}
-.thumbnail {
-	width: 100%;
-}
-.thumbnail-art {
-	width: 100%;
-}
-.thumbnail {
-	width: 50%;
-}
-.text_column {
-	padding-left: 20px;
-	padding-right: 20px;
-	width: 90%;
-}
-.column {
-	width: 100%;
-	margin-left: 0px;
-	margin-right: 0px;
-}
-.profile {
-	width: 100%;
-}
-.intro .column p {
-	width: 90%;
-	text-align: center;
-	padding-left: 0px;
-}
-.container header nav {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	float: none;
-	overflow: auto;
-	display: inline-block;
-	background: #52bad5;
-}
-header nav ul {
-	padding: 0px;
-	float: none;
-}
-nav ul li {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	text-align: center;
-	padding-top: 8px;
-	padding-bottom: 8px;
-}
 
-.footer_column {
-	width: 100%;
-	margin-top: 0px;
-}
-.parallax {
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 100%;
-	font-size: 18px;
-}
-.parallax_description {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	margin-top: 30%;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	float: none;
-	width: 100%;
-	text-align: center;
-}
-.parallax {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-top: 20%;
-}
-.parallax_description {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 30px;
-}
-.banner {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.footer_column {
-	width: 100%;
-}
-}
 
 /* ========== Small Desktops ========== */
 
