@@ -18,7 +18,7 @@
 }
 .topbtnwrap {
 	position: fixed;
-	top: 55px;
+	top: 60px;
 	left: 10px;
 	letter-spacing: 7px;
 }
@@ -67,48 +67,10 @@
 /* ========== Small Tablets ========== */
 
 @media (min-width: 321px)and (max-width: 767px) {
-
+}
 
 
 /* ========== Small Desktops ========== */
 
 @media (min-width: 768px) and (max-width: 1096px) {
-.text_column {
-	width: 100%;
-}
-.thumbnail {
-	width: 48%;
-}
-.thumbnail-art {
-	width: 48%;
-}
-.thumbnail {
-	width: 50%;
-}
-.text_column {
-	width: 90%;
-	margin: 0;
-	padding: 20px;
-}
-.intro .column p {
-	width: 80%;
-}
-.text_column {
-	width: 100%;
-}
-.text_column {
-	width: 100%;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-.banner {
-	margin-top: 0px;
-	padding-top: 0px;
-}
 }
