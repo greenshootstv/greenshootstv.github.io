@@ -30,6 +30,7 @@ a {text-decoration:none;
 }
 .parallax {
 	background-image: url(../images/parallax.png);
+#	height: 825px;
 #	background-attachment:scroll;
 	background-attachment: fixed;
 	background-size: cover;
