@@ -29,6 +29,9 @@
 .tagline {
 	display: none;
 }
+.marqeewrap {
+	display: none;
+}
 .marquee {
 	display: relative;
 	bottom: 27px;
