@@ -18,9 +18,6 @@ body {
 	background-color: #000000;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
 }
-nav {
-	position: fixed; width: 300px; right: -300px;
-}
 
 a {text-decoration:none;
 }
@@ -32,9 +29,7 @@ a {text-decoration:none;
 	height: 700px;
 }
 .parallax {
-	background-color: #2D9AB7;
 	background-image: url(../images/parallax.png);
-#	height: 825px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -43,7 +38,6 @@ a {text-decoration:none;
 	position: fixed;
 	border: 2px solid #DE3163;
 #	margin: 10px;
-#	background-color: #2C9AB7;
 	background-image: url(../images/parallax.png);
 	top: 0px;
 	left: 0px;
@@ -60,10 +54,8 @@ a {text-decoration:none;
 /* ======== Nav Header ======== */
 
 header {
-	height: 10%;
 	border-bottom: 1px solid #2C9AB7;
 	width: 25%;
-#	height: 10px;
 }
 .logo {
 	width: 12%;
@@ -91,8 +83,6 @@ header {
 	font-weight: bold;
 	font-size: 22px;
 	text-shadow: 1px 1px 2px black, 0 0 1em rgb(221, 15, 104), 0 0 0.2em blue;
-#	border: 3px solid #FFFFFF;
-#	border-radius: 12px;
 	letter-spacing: 2px;
 	padding-left: 55px;
 }
