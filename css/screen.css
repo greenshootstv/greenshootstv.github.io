@@ -65,10 +65,29 @@
 	top: 16px;
 }
 
+/* ========== Parallax (Forced for iphone) ========== */
+@supports (-webkit-overflow-scrolling: touch) {
+    .cover-header {
+        background-size: 0 0;
+    }
+    .cover-header:before {
+        content: "";
+        top: 0; 
+        left: 0; 
+        bottom: 0;
+        right: 0;
+        background-image: inherit;
+        background-size: cover;
+        background-position: inherit;
+        background-repeat: inherit;
+        position: fixed;
+        z-index: -1;
+    }
+}
 /* ========== Small Tablets ========== */
 
 @media (min-width: 321px)and (max-width: 767px) {
-	
+
 
 
 }
