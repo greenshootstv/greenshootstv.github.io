@@ -67,10 +67,10 @@
 
 /* ========== Parallax (Forced for iphone) ========== */
 @supports (-webkit-overflow-scrolling: touch) {
-    .cover-header {
+    ..parallax {
         background-size: 0 0;
     }
-    .cover-header:before {
+    ..parallax:before {
         content: "";
         top: 0; 
         left: 0; 
