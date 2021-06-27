@@ -1,6 +1,25 @@
-		@charset "UTF-8";
+@charset "UTF-8";
 
-/* ========== Mobile (eg iphone SE 320px x 568)========== */
+/* ========== Parallax (Forced for iphone) ========== */
+@supports (-webkit-overflow-scrolling: touch) {
+.parallax {
+	background-size: 0 0;
+    }
+.parallax:before {
+	content: "";
+	top: 0; 
+	left: 0; 
+	bottom: 0;
+	right: 0;
+	background-image: inherit;
+	background-size: cover;
+	background-position: inherit;
+	background-repeat: inherit;
+	position: fixed;
+	z-index: -1;
+}
+}		
+/* ========== Mobile small (iphone se) ========== */
 
 @media (max-width: 320px) {
 .container {
@@ -10,22 +29,18 @@
 	left: 0px
 }
 .search input[type=text] {
-	width: 30%;
-	position: absolute;
-	right: 15px;
+	width: 35%;
+	position: relative;
+	left: 60px;
 }
 .topbannerwrap {
 	height: 95px;
 }
-.topbtnwrap {
-	position: fixed;
-	top: 60px;
-	left: 10px;
-	letter-spacing: 7px;
+#.topbtnwrap {
 }
 .topbtn {
-	font-size: 20px;
-	padding-left: 5px;
+	font-size: 12px;
+	padding-left: 35px;
 }
 .tagline {
 	display: none;
@@ -65,36 +80,394 @@
 	top: 16px;
 	display: none;
 }
-
-/* ========== Parallax (Forced for iphone) ========== */
-@supports (-webkit-overflow-scrolling: touch) {
-    .parallax {
-        background-size: 0 0;
-    }
-    .parallax:before {
-        content: "";
-        top: 0; 
-        left: 0; 
-        bottom: 0;
-        right: 0;
-        background-image: inherit;
-        background-size: cover;
-        background-position: inherit;
-        background-repeat: inherit;
-        position: fixed;
-        z-index: -1;
-    }
 }
-/* ========== Small Tablets (ipad 1024 x 768) ========== */
+/* ========== Mobile medium iphone 7 plus ========== */
 
-@media (min-width: 321px)and (max-width: 767px) {
+@media (min-width: 321px) and (max-width: 414px) {
+	.container {
+		position: absolute;
+		width: 100%;
+		right: 0px;
+		left: 0px
+	}
+	.search input[type=text] {
+		width: 39%;
+		position: relative;
+		left: 60px;
+	}
+	.topbannerwrap {
+		height: 95px;
+	}
+	#.topbtnwrap {
+	}
+	.topbtn {
+		font-size: 12px;
+		padding-left: 35px;
+	}
+	.tagline {
+		display: none;
+	}
+	.marquee {
+		display: relative;
+		bottom: 49px;
+	}
+	.marquee>a>img {
+		height: 60px;
+	}
+	.textwrapper {
+		align: center;
+		padding-top: 50px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: 25px;
+	}
+	.linkbtn {
+		display: inline-block;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	.lowbannerheadtit {
+		margin-bottom: 15px;
+	}
+	.subbtn {
+	#	margin-right: 200px;
+		margin-left: 10px;
+	}
+	.backbtn {
+		font-size: 75px;	
+		padding-left: 3px;
+		padding-right: 15px;
+		margin-left: 5px;
+		position: relative;
+		top: 16px;
+		display: none;
+	}
+	}
+	
+/* ========== Mobile large iphone 7 plus ========== */
 
+@media (min-width: 415px)and (max-width: 500px) {
+	.container {
+		position: absolute;
+		width: 100%;
+		right: 0px;
+		left: 0px
+	}
+	.search input[type=text] {
+		width: 48%;
+		position: relative;
+		left: 60px;
+	}
+	.topbannerwrap {
+		height: 95px;
+	}
+	#.topbtnwrap {
+	}
+	.topbtn {
+		font-size: 15px;
+		position: relative;
+		left: -15px;
+	}
+	.tagline {
+		display: none;
+	}
+	.marquee {
+		display: relative;
+		bottom: 49px;
+	}
+	.marquee>a>img {
+		height: 60px;
+	}
+	.textwrapper {
+		align: center;
+		  padding-top: 50px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: 25px;
+	}
+	.linkbtn {
+		display: inline-block;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	.lowbannerheadtit {
+		margin-bottom: 15px;
+	}
+	.subbtn {
+	#	margin-right: 200px;
+		margin-left: 10px;
+	}
+	.backbtn {
+		font-size: 75px;	
+		padding-left: 3px;
+		padding-right: 15px;
+		margin-left: 5px;
+		position: relative;
+		top: 16px;
+		display: none;
+	}
+	}
 
-
-}
-
-
-/* ========== Small Desktops ========== */
-
-@media (min-width: 768px) and (max-width: 1096px) {
-}
+/* ========== Mobile large + ========== */	
+	@media (min-width: 501px)and (max-width: 700px) {
+		.container {
+			position: absolute;
+			width: 100%;
+			right: 0px;
+			left: 0px
+		}
+		.search input[type=text] {
+			width: 55%;
+			position: relative;
+			left: 60px;
+		}
+		.topbannerwrap {
+			height: 95px;
+		}
+		#.topbtnwrap {
+		}
+		.topbtn {
+			font-size: 15px;
+			position: relative;
+			left: 5px;
+		}
+		.tagline {
+			display: none;
+		}
+		.marquee {
+			display: relative;
+			bottom: 49px;
+		}
+		.marquee>a>img {
+			height: 60px;
+		}
+		.textwrapper {
+			align: center;
+			padding-top: 50px;
+			padding-left: 35px;
+			padding-right: 35px;
+			margin-top: 25px;
+		}
+		.linkbtn {
+			display: inline-block;
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+		.lowbannerheadtit {
+			margin-bottom: 15px;
+		}
+		.subbtn {
+		#	margin-right: 200px;
+			margin-left: 10px;
+		}
+		.backbtn {
+			font-size: 75px;	
+			padding-left: 3px;
+			padding-right: 15px;
+			margin-left: 5px;
+			position: relative;
+			top: 16px;
+			display: none;
+		}
+		}
+/* ========== Mobile large + ========== */	
+@media (min-width: 701px)and (max-width: 755px) {
+	.container {
+		position: absolute;
+		width: 100%;
+		right: 0px;
+		left: 0px
+	}
+	.search input[type=text] {
+		width: 20%;
+		position: relative;
+		left: 10px;
+	}
+	.topbannerwrap {
+		height: 95px;
+	}
+	#.topbtnwrap {
+	}
+	.topbtn {
+		font-size: 15px;
+		position: relative;
+		left: 5px;
+	}
+	.tagline {
+		display: none;
+	}
+	.marquee {
+		display: relative;
+		bottom: 49px;
+	}
+	.marquee>a>img {
+		height: 60px;
+	}
+	.textwrapper {
+		align: center;
+		padding-top: 50px;
+		padding-left: 35px;
+		padding-right: 35px;
+		margin-top: 25px;
+	}
+	.linkbtn {
+		display: inline-block;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	.lowbannerheadtit {
+		margin-bottom: 15px;
+	}
+	.subbtn {
+	#	margin-right: 200px;
+		margin-left: 10px;
+	}
+	.backbtn {
+		font-size: 75px;	
+		padding-left: 3px;
+		padding-right: 15px;
+		margin-left: 5px;
+		position: relative;
+		top: 16px;
+		display: none;
+	}
+	}
+	/* ========== Mobile large ++ ========== */	
+@media (min-width: 756px)and (max-width: 900px) {
+	.container {
+		position: absolute;
+		width: 100%;
+		right: 0px;
+		left: 0px
+	}
+	.search input[type=text] {
+		width: 20%;
+		position: relative;
+		left: 10px;
+	}
+	.topbannerwrap {
+		height: 95px;
+	}
+	#.topbtnwrap {
+	}
+	.topbtn {
+		font-size: 15px;
+		position: relative;
+		left: 5px;
+	}
+	.tagline {
+		font-size: 17px;
+		position: absolute;
+		top: 42px;
+		left: 155px;
+	}
+	.whereami {
+		font-size: 30px;
+		margin-left: 625px;
+#		margin-bottom: 100px;
+	}
+	.marquee {
+		display: relative;
+		bottom: 49px;
+	}
+	.marquee>a>img {
+		height: 60px;
+	}
+	.textwrapper {
+		align: center;
+		padding-top: 50px;
+		padding-left: 35px;
+		padding-right: 35px;
+		margin-top: 25px;
+	}
+	.linkbtn {
+		display: inline-block;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	.lowbannerheadtit {
+		margin-bottom: 15px;
+	}
+	.subbtn {
+	#	margin-right: 200px;
+		margin-left: 10px;
+	}
+	.backbtn {
+		font-size: 75px;	
+		padding-left: 3px;
+		padding-right: 15px;
+		margin-left: 5px;
+		position: relative;
+		top: 16px;
+		display: none;
+	}
+	}
+	@media (min-width: 901px)and (max-width: 1280px) {
+	.container {
+		position: absolute;
+		width: 100%;
+		right: 0px;
+		left: 0px
+	}
+	.search input[type=text] {
+		width: 20%;
+		position: relative;
+		left: 10px;
+	}
+	.topbannerwrap {
+		height: 95px;
+	}
+	#.topbtnwrap {
+	}
+	.topbtn {
+		font-size: 15px;
+		position: relative;
+		left: 5px;
+	}
+	.tagline {
+		font-size: 17px;
+		position: absolute;
+		top: 42px;
+		left: 155px;
+	}
+	.whereami {
+		font-size: 30px;
+		margin-left: 625px;
+#		margin-bottom: 100px;
+	}
+	.marquee {
+		display: relative;
+		bottom: 49px;
+	}
+	.marquee>a>img {
+		height: 60px;
+	}
+	.textwrapper {
+		align: center;
+		padding-top: 50px;
+		padding-left: 35px;
+		padding-right: 35px;
+		margin-top: 25px;
+	}
+	.linkbtn {
+		display: inline-block;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	.lowbannerheadtit {
+		margin-bottom: 15px;
+	}
+	.subbtn {
+	#	margin-right: 200px;
+		margin-left: 10px;
+	}
+	.backbtn {
+		font-size: 75px;	
+		padding-left: 3px;
+		padding-right: 15px;
+		margin-left: 5px;
+		position: relative;
+		top: 16px;
+		display: none;
+	}
+	}
