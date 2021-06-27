@@ -1,6 +1,6 @@
 		@charset "UTF-8";
 
-/* ========== Mobile (eg iphone SE )========== */
+/* ========== Mobile (eg iphone SE 320px x 568)========== */
 
 @media (max-width: 320px) {
 .container {
@@ -63,14 +63,15 @@
 	margin-left: 5px;
 	position: relative;
 	top: 16px;
+	display: none;
 }
 
 /* ========== Parallax (Forced for iphone) ========== */
 @supports (-webkit-overflow-scrolling: touch) {
-    ..parallax {
+    .parallax {
         background-size: 0 0;
     }
-    ..parallax:before {
+    .parallax:before {
         content: "";
         top: 0; 
         left: 0; 
@@ -84,7 +85,7 @@
         z-index: -1;
     }
 }
-/* ========== Small Tablets ========== */
+/* ========== Small Tablets (ipad 1024 x 768) ========== */
 
 @media (min-width: 321px)and (max-width: 767px) {
 
