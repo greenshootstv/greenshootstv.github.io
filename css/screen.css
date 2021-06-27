@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* ========== Parallax (Forced for iphone) ========== */
+/* ========= Parallax (Forced for iphone) ========= */
 @supports (-webkit-overflow-scrolling: touch) {
 .parallax {
 	background-size: 0 0;
@@ -18,8 +18,15 @@
 	position: fixed;
 	z-index: -1;
 }
-}		
-/* ========== Mobile small (iphone se) ========== */
+}
+/* ========= scroll disablel (iphone) ========= */
+@media screen and (max-width:640px) {
+	.row.sqs-row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	}
+/* ========= Mobile small (iphone se) ========= */
 
 @media (max-width: 320px) {
 .container {
@@ -81,393 +88,269 @@
 	display: none;
 }
 }
-/* ========== Mobile medium iphone 7 plus ========== */
+/* =========  ========= */
 
-@media (min-width: 321px) and (max-width: 414px) {
-	.container {
-		position: absolute;
-		width: 100%;
-		right: 0px;
-		left: 0px
-	}
-	.search input[type=text] {
-		width: 39%;
-		position: relative;
-		left: 60px;
-	}
-	.topbannerwrap {
-		height: 95px;
-	}
-	#.topbtnwrap {
-	}
-	.topbtn {
-		font-size: 12px;
-		padding-left: 35px;
-	}
-	.tagline {
-		display: none;
-	}
-	.marquee {
-		display: relative;
-		bottom: 49px;
-	}
-	.marquee>a>img {
-		height: 60px;
-	}
-	.textwrapper {
-		align: center;
-		padding-top: 50px;
-		padding-left: 10px;
-		padding-right: 10px;
-		margin-top: 25px;
-	}
-	.linkbtn {
-		display: inline-block;
-		padding: 20px;
-		margin-bottom: 20px;
-	}
-	.lowbannerheadtit {
-		margin-bottom: 15px;
-	}
-	.subbtn {
-	#	margin-right: 200px;
-		margin-left: 10px;
-	}
-	.backbtn {
-		font-size: 75px;	
-		padding-left: 3px;
-		padding-right: 15px;
-		margin-left: 5px;
-		position: relative;
-		top: 16px;
-		display: none;
-	}
-	}
+@media (min-width: 321px) and (max-width: 620px) {
+.container {
+	position: absolute;
+	width: 100%;
+	right: 0px;
+	left: 0px
+}
+.search input[type=text] {
+	width: 39%;
+	position: relative;
+	left: 60px;
+}
+.topbannerwrap {
+	height: 95px;
+}
+#.topbtnwrap {
+}
+.topbtn {
+	font-size: 12px;
+	padding-left: 35px;
+}
+.tagline {
+	display: none;
+}
+.marquee {
+	display: relative;
+	bottom: 49px;
+}
+.marquee>a>img {
+	height: 60px;
+}
+.textwrapper {
+	align: center;
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 25px;
+}
+.linkbtn {
+	display: inline-block;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.lowbannerheadtit {
+	margin-bottom: 15px;
+}
+.subbtn {
+#	margin-right: 200px;
+	margin-left: 10px;
+}
+.backbtn {
+	font-size: 75px;	
+	padding-left: 3px;
+	padding-right: 15px;
+	margin-left: 5px;
+	position: relative;
+	top: 16px;
+	display: none;
+}
+}
 	
-/* ========== Mobile large iphone 7 plus ========== */
+/* ========= ========= */
 
-@media (min-width: 415px)and (max-width: 500px) {
-	.container {
-		position: absolute;
-		width: 100%;
-		right: 0px;
-		left: 0px
-	}
-	.search input[type=text] {
-		width: 48%;
-		position: relative;
-		left: 60px;
-	}
-	.topbannerwrap {
-		height: 95px;
-	}
-	#.topbtnwrap {
-	}
-	.topbtn {
-		font-size: 15px;
-		position: relative;
-		left: -15px;
-	}
-	.tagline {
-		display: none;
-	}
-	.marquee {
-		display: relative;
-		bottom: 49px;
-	}
-	.marquee>a>img {
-		height: 60px;
-	}
-	.textwrapper {
-		align: center;
-		  padding-top: 50px;
-		padding-left: 10px;
-		padding-right: 10px;
-		margin-top: 25px;
-	}
-	.linkbtn {
-		display: inline-block;
-		padding: 20px;
-		margin-bottom: 20px;
-	}
-	.lowbannerheadtit {
-		margin-bottom: 15px;
-	}
-	.subbtn {
-	#	margin-right: 200px;
-		margin-left: 10px;
-	}
-	.backbtn {
-		font-size: 75px;	
-		padding-left: 3px;
-		padding-right: 15px;
-		margin-left: 5px;
-		position: relative;
-		top: 16px;
-		display: none;
-	}
-	}
+@media (min-width: 621px)and (max-width: 780px) {
+.container {
+	position: absolute;
+	width: 100%;
+	right: 0px;
+	left: 0px
+}
+.search input[type=text] {
+	width: 67%;
+	position: relative;
+	left: 25px;
+}
+.topbannerwrap {
+	height: 95px;
+}
+#.topbtnwrap {
+}
+.topbtn {
+	font-size: 15px;
+	position: relative;
+	left: -2px;
+}
+.tagline {
+	display: none;
+}
+.marquee {
+	display: relative;
+	bottom: 49px;
+}
+.marquee>a>img {
+	height: 60px;
+}
+.textwrapper {
+	align: center;
+	padding-top: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 25px;
+}
+.linkbtn {
+	display: inline-block;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.lowbannerheadtit {
+	margin-bottom: 15px;
+}
+.subbtn {
+#	margin-right: 200px;
+	margin-left: 10px;
+}
+.backbtn {
+	font-size: 75px;	
+	padding-left: 3px;
+	padding-right: 15px;
+	margin-left: 5px;
+	position: relative;
+	top: 16px;
+	display: none;
+}
+}
 
-/* ========== Mobile large + ========== */	
-	@media (min-width: 501px)and (max-width: 700px) {
-		.container {
-			position: absolute;
-			width: 100%;
-			right: 0px;
-			left: 0px
-		}
-		.search input[type=text] {
-			width: 55%;
-			position: relative;
-			left: 60px;
-		}
-		.topbannerwrap {
-			height: 95px;
-		}
-		#.topbtnwrap {
-		}
-		.topbtn {
-			font-size: 15px;
-			position: relative;
-			left: 5px;
-		}
-		.tagline {
-			display: none;
-		}
-		.marquee {
-			display: relative;
-			bottom: 49px;
-		}
-		.marquee>a>img {
-			height: 60px;
-		}
-		.textwrapper {
-			align: center;
-			padding-top: 50px;
-			padding-left: 35px;
-			padding-right: 35px;
-			margin-top: 25px;
-		}
-		.linkbtn {
-			display: inline-block;
-			padding: 20px;
-			margin-bottom: 20px;
-		}
-		.lowbannerheadtit {
-			margin-bottom: 15px;
-		}
-		.subbtn {
-		#	margin-right: 200px;
-			margin-left: 10px;
-		}
-		.backbtn {
-			font-size: 75px;	
-			padding-left: 3px;
-			padding-right: 15px;
-			margin-left: 5px;
-			position: relative;
-			top: 16px;
-			display: none;
-		}
-		}
-/* ========== Mobile large + ========== */	
-@media (min-width: 701px)and (max-width: 755px) {
-	.container {
-		position: absolute;
-		width: 100%;
-		right: 0px;
-		left: 0px
-	}
-	.search input[type=text] {
-		width: 20%;
-		position: relative;
-		left: 10px;
-	}
-	.topbannerwrap {
-		height: 95px;
-	}
+/* ==============  =========== */	
+@media (min-width: 781px)and (max-width: 1020px) {
+.container {
+	position: absolute;
+	width: 95%;
+	right: 0px;
+	left: 0px
+}
+.search input[type=text] {
+	width: 25%;
+	position: relative;
+	left: 10px;
+}
+.topbannerwrap {
+	height: 95px;
+}
 	#.topbtnwrap {
+}
+.topbtn {
+	font-size: 15px;
+	position: relative;
+	left: 5px;
+}
+.tagline {
+	font-size: 18px;
+	position: relative;
+	right: 240px;
+}
+.whereami {
+	font-size: 32px;
+	margin-top: 52px;
+	margin-left: 120px;
+}
+.marquee {
+	display: relative;
+	bottom: 49px;
+}
+.marquee>a>img {
+	height: 60px;
+}
+.textwrapper {
+	align: center;
+	padding-top: 50px;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-top: 25px;
+}
+.linkbtn {
+	display: inline-block;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.lowbannerheadtit {
+	margin-bottom: 15px;
+}
+.subbtn {
+#	margin-right: 200px;
+	margin-left: 10px;
+}
+.backbtn {
+	font-size: 75px;	
+	padding-left: 3px;
+	padding-right: 15px;
+	margin-left: 5px;
+	position: relative;
+	top: 16px;
+	display: none;
+}
+}
+/* ==========  ========== */	
+@media (min-width: 1021px)and (max-width: 1080px) {
+.container {
+	position: absolute;
+	width: 95%;
+	right: 0px;
+	left: 0px
+}
+.search input[type=text] {
+	width: 25%;
+	position: relative;
+	left: 10px;
+}
+.topbannerwrap {
+	height: 95px;
+}
+#.topbtnwrap {
+}
+.topbtn {
+	font-size: 15px;
+	position: relative;
+	left: 5px;
+}
+.tagline {
+font-size: 18px;
+position: relative;
+right: 330px;
+top: 7px;
 	}
-	.topbtn {
-		font-size: 15px;
-		position: relative;
-		left: 5px;
-	}
-	.tagline {
-		display: none;
-	}
-	.marquee {
-		display: relative;
-		bottom: 49px;
-	}
-	.marquee>a>img {
-		height: 60px;
-	}
-	.textwrapper {
-		align: center;
-		padding-top: 50px;
-		padding-left: 35px;
-		padding-right: 35px;
-		margin-top: 25px;
-	}
-	.linkbtn {
-		display: inline-block;
-		padding: 20px;
-		margin-bottom: 20px;
-	}
-	.lowbannerheadtit {
-		margin-bottom: 15px;
-	}
-	.subbtn {
-	#	margin-right: 200px;
-		margin-left: 10px;
-	}
-	.backbtn {
-		font-size: 75px;	
-		padding-left: 3px;
-		padding-right: 15px;
-		margin-left: 5px;
-		position: relative;
-		top: 16px;
-		display: none;
-	}
-	}
-	/* ========== Mobile large ++ ========== */	
-@media (min-width: 756px)and (max-width: 900px) {
-	.container {
-		position: absolute;
-		width: 100%;
-		right: 0px;
-		left: 0px
-	}
-	.search input[type=text] {
-		width: 20%;
-		position: relative;
-		left: 10px;
-	}
-	.topbannerwrap {
-		height: 95px;
-	}
-	#.topbtnwrap {
-	}
-	.topbtn {
-		font-size: 15px;
-		position: relative;
-		left: 5px;
-	}
-	.tagline {
-		font-size: 17px;
-		position: absolute;
-		top: 42px;
-		left: 155px;
-	}
-	.whereami {
-		font-size: 30px;
-		margin-left: 625px;
-#		margin-bottom: 100px;
-	}
-	.marquee {
-		display: relative;
-		bottom: 49px;
-	}
-	.marquee>a>img {
-		height: 60px;
-	}
-	.textwrapper {
-		align: center;
-		padding-top: 50px;
-		padding-left: 35px;
-		padding-right: 35px;
-		margin-top: 25px;
-	}
-	.linkbtn {
-		display: inline-block;
-		padding: 20px;
-		margin-bottom: 20px;
-	}
-	.lowbannerheadtit {
-		margin-bottom: 15px;
-	}
-	.subbtn {
-	#	margin-right: 200px;
-		margin-left: 10px;
-	}
-	.backbtn {
-		font-size: 75px;	
-		padding-left: 3px;
-		padding-right: 15px;
-		margin-left: 5px;
-		position: relative;
-		top: 16px;
-		display: none;
-	}
-	}
-	@media (min-width: 901px)and (max-width: 1280px) {
-	.container {
-		position: absolute;
-		width: 100%;
-		right: 0px;
-		left: 0px
-	}
-	.search input[type=text] {
-		width: 20%;
-		position: relative;
-		left: 10px;
-	}
-	.topbannerwrap {
-		height: 95px;
-	}
-	#.topbtnwrap {
-	}
-	.topbtn {
-		font-size: 15px;
-		position: relative;
-		left: 5px;
-	}
-	.tagline {
-		font-size: 17px;
-		position: absolute;
-		top: 42px;
-		left: 155px;
-	}
-	.whereami {
-		font-size: 30px;
-		margin-left: 625px;
-#		margin-bottom: 100px;
-	}
-	.marquee {
-		display: relative;
-		bottom: 49px;
-	}
-	.marquee>a>img {
-		height: 60px;
-	}
-	.textwrapper {
-		align: center;
-		padding-top: 50px;
-		padding-left: 35px;
-		padding-right: 35px;
-		margin-top: 25px;
-	}
-	.linkbtn {
-		display: inline-block;
-		padding: 20px;
-		margin-bottom: 20px;
-	}
-	.lowbannerheadtit {
-		margin-bottom: 15px;
-	}
-	.subbtn {
-	#	margin-right: 200px;
-		margin-left: 10px;
-	}
-	.backbtn {
-		font-size: 75px;	
-		padding-left: 3px;
-		padding-right: 15px;
-		margin-left: 5px;
-		position: relative;
-		top: 16px;
-		display: none;
-	}
-	}
+.whereami {
+font-size: 32px;
+margin-top: 45px;
+margin-left: 850px;
+			}
+.marquee {
+	display: relative;
+	bottom: 49px;
+}
+.marquee>a>img {
+	height: 60px;
+}
+.textwrapper {
+	align: center;
+	padding-top: 50px;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-top: 25px;
+}
+.linkbtn {
+	display: inline-block;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.lowbannerheadtit {
+	margin-bottom: 15px;
+}
+.subbtn {
+#	margin-right: 200px;
+	margin-left: 10px;
+}
+.backbtn {
+	font-size: 75px;	
+	padding-left: 3px;
+	padding-right: 15px;
+	margin-left: 5px;
+	position: relative;
+	top: 16px;
+	display: none;
+}
+}
