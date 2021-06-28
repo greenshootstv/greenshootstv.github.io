@@ -13,16 +13,12 @@
 	src: url(../fonts/MOONYCAT.TTF);
 }
 /* ======== Everything ========  */
-
 body {
 	background-color: #000000;
 }
-
 .marqeewrap {
 	overflow-x: hidden; /* Hide horizontal scrollbar */
-	
 }
-
 a {text-decoration:none;
 }
 
@@ -40,6 +36,9 @@ a {text-decoration:none;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+/* ======== Top ========  */
+
 .topbannerwrap {
 	position: fixed;
 	border: 2px solid #DE3163;
@@ -52,19 +51,19 @@ a {text-decoration:none;
 }
 .tagline {
 	font-family: MOONYCAT;
-	font-size: 28px;
+	font-size: 26px;
 	float: left;
-	margin-left: -135px;
+	position: relative;
+	left: -130px;
 }
 .whereami {
 	font-family: MOONYCAT;
-	font-size: 38px;
+	font-size: 34px;
 	color: #B3B3B3;
-	margin-top: 52px;
-	margin-left: 920px;
+	float: right;
+	margin-right: 30px;
+	margin-top: -10px;
 }
-/* ======== Header ======== */
-
 .logo {
 	width: 12%;
 	float: left;
@@ -98,8 +97,7 @@ a {text-decoration:none;
 	color: #717070;
 	transition: all 0.3s linear;
 }
-/* ======== Marquee ========  */
-
+/* ======== Middle ========  */
 .marqeewrap {
 	position: relative;
 	top: 145px;
@@ -132,8 +130,6 @@ a {text-decoration:none;
 		  transform: translate3d(-100%, 0, 0);
 	  }
 }
-/* ======== Text Main ======== */
-
 .textwrapper {
 	font-family: Simplecat-d9xpV;
 	text-align: justify;
@@ -149,8 +145,6 @@ a {text-decoration:none;
 	padding-right: 80px;
 	margin-top: 50px;
 }
-/* ======== Link Buttons ======== */
-
 .linkbtnwrap {
 	text-align: center;
 	margin-top: 35px;
@@ -176,8 +170,7 @@ a {text-decoration:none;
 	color: white;
 	transition: all 0.3s linear;
 }
-/* ===== Lower Banner / Footer / Copyright =======*/
-
+/* ===== Lower =======*/
 .lowerbanner {
 	background-color: #B3B3B3;
 #	background-color: black;
