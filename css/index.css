@@ -16,7 +16,11 @@
 
 body {
 	background-color: #000000;
+}
+
+.marqeewrap {
 	overflow-x: hidden; /* Hide horizontal scrollbar */
+	
 }
 
 a {text-decoration:none;
@@ -54,7 +58,7 @@ a {text-decoration:none;
 }
 .whereami {
 	font-family: MOONYCAT;
-	font-size: 42px;
+	font-size: 38px;
 	color: #B3B3B3;
 	margin-top: 52px;
 	margin-left: 920px;
