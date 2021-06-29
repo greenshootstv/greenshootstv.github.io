@@ -20,6 +20,13 @@ body {
 .marqeewrap {
 	overflow-x: hidden; /* Hide horizontal scrollbar */
 }
+.marquee-wrapper {
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.marquee {
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+	
 a {text-decoration:none;
 }
 .container {
