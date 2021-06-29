@@ -21,7 +21,6 @@ body {
 }
 a {text-decoration:none;
 }
-
 .container {
 	width: 90%;
 	margin-left: auto;
@@ -51,18 +50,19 @@ a {text-decoration:none;
 }
 .tagline {
 	font-family: MOONYCAT;
-	font-size: 26px;
+	font-size: 24px;
 	float: left;
-	position: relative;
-	left: -130px;
+	position: absolute;
+	top: 45px;
+	left: 20px;
 }
 .whereami {
 	font-family: MOONYCAT;
-	font-size: 34px;
+	font-size: 32px;
 	color: #B3B3B3;
-	float: right;
-	margin-right: 30px;
-	margin-top: -10px;
+	position: absolute;
+	top: 30px;
+	left: 955px;
 }
 .logo {
 	width: 12%;
@@ -98,16 +98,14 @@ a {text-decoration:none;
 	transition: all 0.3s linear;
 }
 /* ======== Middle ========  */
-.marqeewrap {
-	position: relative;
-	top: 145px;
-}
 .marquee>a>img {
 	height: 65px;
 }
 .marquee-wrapper {
 	display: inline-block;
 	white-space: nowrap;
+	position: absolute;
+	top: 145px;
 }
 .marquee {
 	  display:  inline-block;
@@ -139,7 +137,7 @@ a {text-decoration:none;
     font-size: 16px;
     letter-spacing: 2px;
 	background-color: #B3B3B3;
-	padding-top: 85px;
+	padding-top: 150px;
 	padding-bottom: 15px;
 	padding-left: 80px;
 	padding-right: 80px;
@@ -181,12 +179,10 @@ a {text-decoration:none;
 	text-align: center;
 	letter-spacing: 4px;
 }
-
 .lowbannerheadtit {
 	position: relative;
 	top: -25px;
 	margin-bottom: -20px;
-
 }
 .subbtn {
 	border: 3px solid #FFFFFF;
