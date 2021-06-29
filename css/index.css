@@ -16,7 +16,7 @@
 body {
 	background-color: #000000;
 }
-.marquee {
+.marqeewrap {
 	overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 a {text-decoration:none;
