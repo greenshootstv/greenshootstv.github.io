@@ -38,6 +38,11 @@ html, body {
 
 a {text-decoration:none;
 }
+
+:root {
+	touch-action: pan-x pan-y;
+	height: 100% 
+  }
 .container {
 	width: 90%;
 	margin-left: auto;
