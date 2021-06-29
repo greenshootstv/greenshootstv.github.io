@@ -15,25 +15,6 @@
 /* ======== Everything ========  */
 body {
 	background-color: #000000;
-	overflow-x: hidden; /* Hide horizontal scrollbar */
-}
-.marqeewrap {
-	overflow-x: hidden; /* Hide horizontal scrollbar */
-}
-.marquee-wrapper {
-	overflow-x: hidden; /* Hide horizontal scrollbar */
-}
-.marquee {
-	overflow-x: hidden; /* Hide horizontal scrollbar */
-}
-
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-.x-scroll-disabled {
-	overflow-x: hidden;
 }
 
 a {text-decoration:none;
@@ -94,7 +75,7 @@ a {text-decoration:none;
 }
 .search input[type=text] {
 	float: left;
-	padding-right: 55px;
+	padding-right: 10px;
 	padding-left: 10px;
 	margin-top: 14px;
 	margin-right: 16px;
