@@ -16,9 +16,9 @@
 body {
 	background-color: #000000;
 }
-.marqueewrap {
+html, body {
 	overflow-x: hidden;
-	}
+}
 a {text-decoration:none;
 }
 
