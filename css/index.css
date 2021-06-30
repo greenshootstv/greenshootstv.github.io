@@ -19,8 +19,9 @@ body {
 
 a {text-decoration:none;
 }
-
-
+html, body {
+	overflow-x: hidden;
+}
 :root {
 	touch-action: pan-x pan-y;
 	height: 100%
@@ -102,23 +103,18 @@ a {text-decoration:none;
 	transition: all 0.3s linear;
 }
 /* ======== Middle ========  */
-.marquee>a>img {
-	height: 65px;
-}
-#.marquee-wrapper {
-	display: inline-block;
-	white-space: nowrap;
-	position: absolute;
-	top: 145px;
-}
 .marquee {
 	  display:  inline-block;
 	  white-space: nowrap;
 	  position: relative;
+	  top: 145px;
 	  transform: translate3d(0%, 0, 0);
 	  animation-name: marquee;
 	  animation-timing-function: linear;
 	  animation-iteration-count: infinite;
+}
+.marquee>a>img {
+	height: 65px;
 }
 .marquee-wrapper:hover .marquee {
 	  animation-play-state: paused !important;
@@ -141,7 +137,7 @@ a {text-decoration:none;
     font-size: 16px;
     letter-spacing: 2px;
 	background-color: #B3B3B3;
-	padding-top: 150px;
+	padding-top: 85px;
 	padding-bottom: 15px;
 	padding-left: 80px;
 	padding-right: 80px;
@@ -175,7 +171,6 @@ a {text-decoration:none;
 /* ===== Lower =======*/
 .lowerbanner {
 	background-color: #B3B3B3;
-#	background-color: black;
 	padding-top: 35px;
 	padding-bottom: 55px;
 	font-family: notacumulus;

@@ -46,15 +46,15 @@
 .whereami {
 	display: none;
 }	
+.marquee {
+	position: relative;
+	top: 115px;
+}
 .marquee>a>img {
 	height: 55px;
 }
-.marquee-wrapper {
-	position: absolute;
-	top: 100px;
-}
 .textwrapper {
-  	padding-top: 95px;
+  	padding-top: 45px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -104,17 +104,17 @@
 .whereami {
 	display: none;
 }	
+.marquee {
+	position: relative;
+	top: 115px;
+}
 .marquee>a>img {
 	height: 55px;
 }
-.marquee-wrapper {
-	position: absolute;
-	top: 100px;
-}
 .textwrapper {
-	padding-top: 95px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-top: 45px;
+  	padding-left: 10px;
+  	padding-right: 10px;
 }
 .linkbtnwrap {
 	margin-bottom: 15px;
@@ -165,17 +165,17 @@
 	top: 30px;
 	left: 555px;
 }	
+.marquee {
+	position: relative;
+	top: 115px;
+}
 .marquee>a>img {
 	height: 55px;
 }
-.marquee-wrapper {
-	position: absolute;
-	top: 100px;
-}
 .textwrapper {
-	padding-top: 95px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-top: 45px;
+  	padding-left: 10px;
+  	padding-right: 10px;
 }
 .linkbtnwrap {
 	margin-bottom: 15px;
@@ -214,17 +214,17 @@
 	top: 30px;
 	left: 755px;
 }	
+.marquee {
+	position: relative;
+	top: 115px;
+}
 .marquee>a>img {
 	height: 55px;
 }
-.marquee-wrapper {
-	position: absolute;
-	top: 110px;
-}
 .textwrapper {
-	padding-top: 95px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-top: 45px;
+  	padding-left: 10px;
+  	padding-right: 10px;
 }
 .linkbtnwrap {
 	margin-bottom: 5px;
