@@ -20,7 +20,7 @@ body {
 a {text-decoration:none;
 }
 
-.marquee>a>img {
+.marquee-wrapper {
 	overflow-x: hidden;
 }
 :root {
