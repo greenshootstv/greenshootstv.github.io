@@ -19,7 +19,8 @@ body {
 
 a {text-decoration:none;
 }
-:root {
+
+.marqeewrap {
 	overflow-x: hidden;
 }
 :root {

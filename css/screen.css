@@ -19,13 +19,6 @@
 	z-index: -1;
 }
 }
-/* ========= scroll disable (iphone) ========= */
-@media screen and (max-width:640px) {
-	.row.sqs-row {
-		margin-left: 0;
-		margin-right: 0;
-}
-}
 /* ========= Mobile small (iphone se) ========= */
 
 @media (max-width: 520px) {
