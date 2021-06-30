@@ -16,12 +16,12 @@
 body {
 	background-color: #000000;
 }
-
+.marqueewrap {
+	overflow-x: hidden;
+	}
 a {text-decoration:none;
 }
-html, body {
-	overflow-x: hidden;
-}
+
 :root {
 	touch-action: pan-x pan-y;
 	height: 100%
@@ -116,7 +116,7 @@ html, body {
 .marquee>a>img {
 	height: 65px;
 }
-.marquee-wrapper:hover .marquee {
+.marqueewrap:hover .marquee {
 	  animation-play-state: paused !important;
 }
 	@keyframes marquee {
