@@ -19,12 +19,20 @@
 	z-index: -1;
 }
 }
-/* ========= Mobile small (iphone se) ========= */
-
-@media (max-width: 520px) {
+/* =========  ========= */
+@media screen and (max-width:640px) {
+	.row.sqs-row {
+	margin-left: 0;
+	margin-right: 0;
+	
+}
 .marqueewrap {
 	overflow-x: hidden;
 }
+}
+/* ========= Mobile small (iphone se) ========= */
+
+@media (max-width: 520px) {
 .container {
 	position: absolute;
 	width: 100%;
