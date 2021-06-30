@@ -22,6 +22,9 @@
 /* ========= Mobile small (iphone se) ========= */
 
 @media (max-width: 520px) {
+.marqueewrap {
+	overflow-x: hidden;
+}
 .container {
 	position: absolute;
 	width: 100%;
