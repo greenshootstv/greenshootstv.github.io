@@ -20,9 +20,7 @@ body {
 a {text-decoration:none;
 }
 
-.marquee-wrapper {
-	overflow-x: hidden;
-}
+
 :root {
 	touch-action: pan-x pan-y;
 	height: 100%
@@ -107,7 +105,7 @@ a {text-decoration:none;
 .marquee>a>img {
 	height: 65px;
 }
-.marquee-wrapper {
+#.marquee-wrapper {
 	display: inline-block;
 	white-space: nowrap;
 	position: absolute;
