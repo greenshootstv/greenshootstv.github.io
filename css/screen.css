@@ -77,10 +77,11 @@
 	margin-bottom: 15px;
 }
 .backbtn {
-zoom: 0.7
+zoom: 0.6
 }
 .forwbtn {
-	zoom: 0.7
+zoom: 0.6
+}
 }
 /* =========  ========= */
 
@@ -132,16 +133,12 @@ zoom: 0.7
 	margin-bottom: 15px;
 }
 .backbtn {
-	font-size: 75px;	
-	padding-left: 3px;
-	padding-right: 15px;
-	margin-left: 5px;
-	position: relative;
-	top: 16px;
-	display: none;
+	zoom: 0.7
 }
+.forwbtn {
+	zoom: 0.7
 }
-
+}	
 @media (min-width: 721px) and (max-width: 920px) {
 .container {
 	position: absolute;
@@ -193,15 +190,13 @@ zoom: 0.7
 	margin-bottom: 15px;
 }
 .backbtn {
-	font-size: 75px;	
-	padding-left: 3px;
-	padding-right: 15px;
-	margin-left: 5px;
-	position: relative;
-	top: 16px;
-	display: none;
+	zoom: 0.8
+}
+.forwbtn {
+	zoom: 0.8
 }
 }
+	
 @media (min-width: 921px) and (max-width: 1080px) {
 .topbannerwrap {
 	height: 95px;
@@ -237,5 +232,11 @@ zoom: 0.7
 }
 .linkbtn {
 	margin-bottom: 20px;
+}
+.backbtn {
+	zoom: 0.9
+}
+.forwbtn {
+	zoom: 0.9
 }
 }

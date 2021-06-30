@@ -217,6 +217,11 @@ a {text-decoration:none;
 	font-size: 60px;
 	font-family: notacumulus;
 }
+.backbtn:hover {
+    background-color: rgba(57, 138, 214, 0.822);	
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
 .forwbtn {
 	border: 3px solid #FFFFFF;
 	border-radius: 5px;
@@ -229,7 +234,7 @@ a {text-decoration:none;
 	font-size: 60px;
 	font-family: notacumulus;
 }
-.backbtn:hover {
+.forwbtn:hover {
     background-color: rgba(57, 138, 214, 0.822);	
 	cursor: pointer;
 	transition: all 0.3s linear;
