@@ -182,6 +182,7 @@ a {text-decoration:none;
 	position: relative;
 	top: -25px;
 	margin-bottom: -20px;
+	padding-bottom: 25px;
 }
 .subbtn {
 	border: 3px solid #FFFFFF;
@@ -207,18 +208,25 @@ a {text-decoration:none;
 	border: 3px solid #FFFFFF;
 	border-radius: 5px;
 	width: 40px;
-	padding-top: 0px;
-	padding-bottom: 25px;
-	padding-left: 10px;
-	padding-right: 35px;
-	margin-right: 850px;
-	margin-top: -45px;
-	margin-bottom: -175px;
-	letter-spacing: 2px;
+	height: 100px;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-top: -60px;
 	color: rgb(0, 0, 0);
-	text-transform: uppercase;
-	font-size: 80px;
-#	font-weight: bold;
+	font-size: 60px;
+	font-family: notacumulus;
+}
+.forwbtn {
+	border: 3px solid #FFFFFF;
+	border-radius: 5px;
+	width: 40px;
+	height: 100px;
+	float: right;
+	margin-right: 10px;
+	margin-top: -60px;
+	color: rgb(0, 0, 0);
+	font-size: 60px;
 	font-family: notacumulus;
 }
 .backbtn:hover {

@@ -77,13 +77,10 @@
 	margin-bottom: 15px;
 }
 .backbtn {
-	font-size: 22px;	
-	padding-left: 3px;
-	padding-right: 15px;
-	margin-left: 5px;
-	position: relative;
-	top: 16px;
+zoom: 0.7
 }
+.forwbtn {
+	zoom: 0.7
 }
 /* =========  ========= */
 
