@@ -340,3 +340,6 @@ a {text-decoration:none;
 	padding-left: 20px;
 }
 
+.videourltextbox {
+	display: none;
+}
