@@ -340,7 +340,7 @@ a {text-decoration:none;
 	padding-left: 20px;
 }
 /* ======== copy button ========  */
-#.highlight-wrapper {
+.highlight-wrapper {
 	display: block;
   }
   
@@ -352,10 +352,10 @@ a {text-decoration:none;
 	border-radius: 4px;
 	padding: 6px;
   }
-#.chroma {
+.chroma {
 	overflow: auto;
   }
-#.chroma .lntable {
+.chroma .lntable {
 	display: table;
 	width: 100%;
 	padding: 0 0 5px;
@@ -364,11 +364,11 @@ a {text-decoration:none;
 	border: 0;
 	overflow: auto;
   }
-#.chroma .lntd:first-child {
+.chroma .lntd:first-child {
 	padding: 7px 7px 7px 10px;
 	margin: 0;
   }
-#.chroma .lntd:last-child {
+.chroma .lntd:last-child {
 	padding: 7px 10px 7px 7px;
 	margin: 0;
 }
@@ -385,6 +385,7 @@ a {text-decoration:none;
 	padding: 4px 4px 4px 4px;
 	cursor: pointer;
 	opacity: 0.7;
+	margin-top: 5px;
   }
 .copy-code-button:hover,
 .copy-code-button:focus,
@@ -394,7 +395,7 @@ a {text-decoration:none;
 	background-color: #b3b3b3;
 	opacity: 0.8;
 }
-#.copyable-text-area {
+.copyable-text-area {
 	position: absolute;
 	height: 0;
 	z-index: -1;
