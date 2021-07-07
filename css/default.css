@@ -23,7 +23,7 @@ body {
 #html {
 	overflow-y: scroll; overflow-x: hidden;
 }
-body {
+.container {
 	overflow: hidden;
 	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
