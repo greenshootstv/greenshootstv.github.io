@@ -17,7 +17,7 @@ body {
 	background-color: #000000;
 }
 
-.marqueewrap {
+.body {
 	overflow: hidden;
 	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
