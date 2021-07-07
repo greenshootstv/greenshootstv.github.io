@@ -16,13 +16,7 @@
 body {
 	background-color: #000000;
 }
-#html {
-	overflow-x: hidden;
-	-webkit-overflow-scrolling: touch;
-}
-#html {
-	overflow-y: scroll; overflow-x: hidden;
-}
+
 .marqueewrap {
 	overflow: hidden;
 	overflow-y: auto;
