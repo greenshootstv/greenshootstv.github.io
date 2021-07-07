@@ -20,19 +20,6 @@
 }
 }
 /* =========  ========= */
-#@media screen and (max-width:320px) {
-.marqueewrap {
-	margin-left: 0;
-	margin-right: 0;
-}
-}
-#@media screen and (max-width:640px) {
-.row.sqs-row {
-	margin-left: 0;
-	margin-right: 0;
-}
-}
-/* ========= ========= */
 
 @media (max-width: 520px) {
 .container {

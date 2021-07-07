@@ -16,7 +16,26 @@
 body {
 	background-color: #000000;
 }
-
+/* ========= Parallax (Forced for iphone) ========= */
+@supports (-webkit-overflow-scrolling: touch) {
+	.parallax {
+		background-size: 0 0;
+		}
+	.parallax:before {
+		content: "";
+		top: 0; 
+		left: 0; 
+		bottom: 0;
+		right: 0;
+		background-image: inherit;
+		background-size: cover;
+		background-position: inherit;
+		background-repeat: inherit;
+		position: fixed;
+		z-index: -1;
+	}
+	}
+/* ========= Parallax (horizontal scroll fix for iphone) ========= */
 .html {
 	overflow: hidden;
 	overflow-y: auto;
