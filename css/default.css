@@ -36,7 +36,7 @@ body {
 	}
 	}
 /* ========= Parallax (horizontal scroll fix for iphone) ========= */
-.html {
+.body {
 	overflow: hidden;
 	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
