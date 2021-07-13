@@ -430,26 +430,28 @@ a {text-decoration:none;
 
 blockquote {
 	border: 1px solid;
-	padding: 15px;
+	padding: 8px;
 	background: #b586b1;
 	color: #ffffff;
 	font-style: italic;
+	font-size: 12px;
 	border-color: #DE3163;
 	border-radius: 5px;
 	border-left-width: 10px;
 }
-#.blockquote--quoted::before {
-	content: "\201c";
-	font-size: 75px;
-	color: #009578;
-	display: block;
-	margin-bottom: -35px;
-	margin-top: -25px;
-
 cite {
-	margin-left: 665px;
+#	text-align: right;
 	font-weight: bold;
 	font-style: normal;
+	
 
 }
+.blockquote--quoted::before {
+	content: "\201c";
+	font-size: 50px;
+	color: #009578;
+	display: block;
+	margin-bottom: -27px;
+	margin-top: -10px;
+
 

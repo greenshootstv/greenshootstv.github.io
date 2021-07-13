@@ -276,6 +276,9 @@
 	text-align: center;
     =
 }
+blockquote {
+	margin: -5px;
+}
 }
 
 /* ========== Small Tablets ========== */
@@ -327,6 +330,9 @@
 	width: 90%;
 	text-align: center;
 	padding-left: 0px;
+}
+blockquote {
+	margin: -5px;
 }
 }
 
