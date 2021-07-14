@@ -16,9 +16,9 @@
 body {
 	background-color: #000000;
 }
-html {
+.container {
 	overflow: hidden;
-	overflow-y: auto;
+	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 }
 a {
