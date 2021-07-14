@@ -277,7 +277,7 @@ a {text-decoration:none;
 	padding-bottom: 35px;
 	padding-top: 0px;
 	margin-top: -5px;
-	margin-bottom: 0px;
+	margin-bottom: -5px;
 }
 .gallery-art {
 	clear: both;
@@ -285,7 +285,7 @@ a {text-decoration:none;
 	width: 100%;
 	background-color: #FFFFFF;
 	/* [disabled]min-width: 400px; */
-	padding-bottom: 0px;
+	padding-bottom: 20px;
 	padding-top: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -302,6 +302,7 @@ a {text-decoration:none;
 	border-radius: 3px;
 	padding-top: 20px;
 	border-bottom: 4px solid #6DC7D0;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .thumbnail-art {
 	width: 23%;
@@ -313,7 +314,7 @@ a {text-decoration:none;
 	margin-right: 1%;
 	border-radius: 33px;
 	padding-top: 1px;
-        padding-bottom: 1px;
+    padding-bottom: 1px;
 	border-bottom: 3px solid #6DC7D0;
 }
 .gallery .thumbnail h4 {
