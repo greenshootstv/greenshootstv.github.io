@@ -16,12 +16,9 @@
 body {
 	background-color: #000000;
 }
-#html {
-	overflow-y: scroll; overflow-x: hidden;
-}
-.container {
+body {
 	overflow: hidden;
-	overflow-y: auto;
+	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 }
 a {text-decoration:none;
